@@ -1,0 +1,13 @@
+[Nemo Action]
+Name=Convert image to pdf
+Comment=jpg > pdf
+Name[ru]=Конвертировать jpg в pdf
+Comment[ru]=Конверт. документы jpg > pdf
+Exec=<docs_to_pdf.sh %F>
+Selection=notnone
+Extensions=jpg;
+EscapeSpaces=true
+Icon-Name=application-pdf
+Dependencies=loimpress;localc;lowriter;
+
+
